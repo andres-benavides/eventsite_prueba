@@ -1,5 +1,7 @@
 class Url < ApplicationRecord
 
+  belongs_to :user
+
   validates_uniqueness_of :short_code
   validates :url, format: URI::regexp(%w[http https])
 
