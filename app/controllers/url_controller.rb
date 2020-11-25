@@ -9,7 +9,7 @@ class UrlController < ApplicationController
     alexa_rank = alexa_rank params[:url]
     host = get_domain params[:url]
     host = host.split "."
-    domain = host.count >= 3 ? host[host.count - 2] :  host[host.count - 1]
+    domain = host.count >= 3 ? host[host.count - 3] :  host[host.count - 2]
     @url = @user.url.create url: params[:url], alexa_rank: alexa_rank, domain: domain
     @url.save!
     render json: {url_short: @url.url_short}

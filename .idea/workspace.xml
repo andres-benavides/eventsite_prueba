@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acc1af69-8cc6-4d11-9e8e-dbbbf961c61e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/welcome/show.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/url_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/url_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -32,12 +29,14 @@
         <counts>
           <entry key="Gemfile" value="1" />
           <entry key="erb" value="1" />
+          <entry key="md" value="1" />
           <entry key="rb" value="25" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Markdown" value="1" />
           <entry key="RHTML" value="1" />
           <entry key="Ruby" value="26" />
           <entry key="YAML" value="1" />
@@ -47,16 +46,16 @@
         <counts>
           <entry key="Gemfile" value="2" />
           <entry key="erb" value="908" />
-          <entry key="rb" value="946" />
-          <entry key="txt" value="285" />
+          <entry key="rb" value="948" />
+          <entry key="txt" value="333" />
           <entry key="yml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="285" />
+          <entry key="PLAIN_TEXT" value="333" />
           <entry key="RHTML" value="908" />
-          <entry key="Ruby" value="948" />
+          <entry key="Ruby" value="950" />
           <entry key="YAML" value="6" />
         </counts>
       </usages-collector>
@@ -82,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/url_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="34" column="9" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="9" />
+            <state relative-caret-position="133">
+              <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -100,11 +99,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/welcome/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+            <state relative-caret-position="399">
+              <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -180,9 +189,9 @@
         <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20201124120401_create_urls.rb" />
         <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/url_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/welcome/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/url_controller.rb" />
       </list>
     </option>
   </component>
@@ -211,53 +220,6 @@
             <path>
               <item name="prueba_eventsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="prueba_eventsite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prueba_eventsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prueba_eventsite" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prueba_eventsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prueba_eventsite" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prueba_eventsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prueba_eventsite" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="concerns" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prueba_eventsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prueba_eventsite" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prueba_eventsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prueba_eventsite" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prueba_eventsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prueba_eventsite" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prueba_eventsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prueba_eventsite" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prueba_eventsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prueba_eventsite" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="environments" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -409,7 +371,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606282101498</updated>
-      <workItem from="1606282103249" duration="21579000" />
+      <workItem from="1606282103249" duration="23174000" />
     </task>
     <task id="LOCAL-00001" summary="Nuevas prueba produccion">
       <created>1606284079516</created>
@@ -453,11 +415,18 @@
       <option name="project" value="LOCAL" />
       <updated>1606340834317</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Vista del welcome y endopoint todas las URLs">
+      <created>1606345874189</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606345874189</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21579000" />
+    <option name="totallyTimeSpent" value="23174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="23" width="1920" height="1057" extended-state="6" />
@@ -508,7 +477,8 @@
     <MESSAGE value="Validar usuario para poder guardar la URL" />
     <MESSAGE value="Controlador de usuario" />
     <MESSAGE value="Verificar si el servicio de Alexa esta retornando el rank del sitio solicitado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Verificar si el servicio de Alexa esta retornando el rank del sitio solicitado" />
+    <MESSAGE value="Vista del welcome y endopoint todas las URLs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vista del welcome y endopoint todas las URLs" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/serializers/url_serializer.rb">
@@ -625,13 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/url_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="34" column="9" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -639,10 +602,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcome/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        <state relative-caret-position="399">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/url_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
         </state>
       </provider>
     </entry>
