@@ -13,7 +13,12 @@ module UrlHelper
 
     rta = https.request(request)
     jos = JSON.parse(rta.body)
-    jos['Awis']['Results']['Result']['Alexa']['TrafficData']['Rank']
+    if jos['Awis']['Results']['Result']['Alexa']['TrafficData'].nil?
+      "Rank not found"
+    else
+      jos['Awis']['Results']['Result']['Alexa']['TrafficData']['Rank']
+
+    end
   end
 
   #obtener el dominio de la url
