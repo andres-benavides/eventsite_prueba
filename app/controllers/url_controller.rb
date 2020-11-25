@@ -26,9 +26,14 @@ class UrlController < ApplicationController
   def domains
     render json: Url.select(:domain).distinct, each_serializer: DomainsSerializer, root: false
   end
-
+  #retornar las urls guardadas bajo el dominio recivido
   def get_by_domain
     render json: Url.where("domain LIKE :dom", {:dom => "%#{params[:domain]}%"})
+  end
+
+  #retornar todas las urls
+  def all
+    render json: Url.all
   end
 
   private

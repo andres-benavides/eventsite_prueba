@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <title>Prueba Andres Benavides</title>
+</head>
+<body>
+<div class="container-fluid">
+
+
+  <div class="row">
+    <div class="col-12">
+      <div class="card">
+        <div class="card-header">
+          Prueba Evensite
+        </div>
+        <div class="card-body">
+          <h3>Fabian Andres Benavides Valencia</h3>
+          <p class="card-text">Celular: 3125270304 </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+    <br>
+  <div class="row">
+    <div class="col-4">
+      <div class="card">
+        <div class="card-header">
+          Crear Usuario
+        </div>
+        <div class="card-body">
+          <p>Para iniciar a consumir el API se debe crear un usuario el cual generará un token y el token es necesario
+            para usar el end-point que genera la url corta</p>
+          <%= link_to "#{@url_site}/user/create", "/user/create" %>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-4">
+      <div class="card">
+        <div class="card-header">
+          Crear URL corta
+        </div>
+        <div class="card-body">
+          <p>Luego de tener un token de usuario se puede crear una URL corta de la siguiente manera</p>
+
+          <ul>
+            <li> Header peticion = <code>{'Authorization' => 'Bearer token_generado'}</code></li>
+            <li> body peticion = <code>{ "url":"https://url-que-desea-acortar"}</code></li>
+          </ul>
+
+          <%= link_to "#{@url_site}/short_url", "/user/create" %>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-4">
+      <div class="card">
+        <div class="card-header">
+          Obtener los dominios que estan registrados
+        </div>
+        <div class="card-body">
+          <%= link_to "#{@url_site}/domains", "/domains" %>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-4">
+    <div class="card">
+      <div class="card-header">
+        Obtener las Urls asociadas a un dominio
+      </div>
+      <div class="card-body">
+        <%= link_to "#{@url_site}/get_by_domain/domini_ejemplo", "/get_by_domain/example" %>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="col-4">
+    <div class="card">
+      <div class="card-header">
+        Obtener todas las URLs
+      </div>
+      <div class="card-body">
+        <%= link_to "#{@url_site}/all", "/all" %>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+</body>
+</html>
