@@ -7,17 +7,22 @@ module UrlHelper
         'Accept' => 'application/json',
         'x-api-key' => "8T7SlYd7Tp16a9VPBovC26LXGhosXjeM97CLbUUv"
     })
+    begin
+      https = Net::HTTP.new(uri.host, uri.port)
+      https.use_ssl = true
+      https.read_timeout = 10
 
-    https = Net::HTTP.new(uri.host, uri.port)
-    https.use_ssl = true
+      rta = https.request(request)
+      jos = JSON.parse(rta.body)
+      if jos['Awis']['Results']['Result']['Alexa']['TrafficData'].nil?
+        "Rank not found"
+      else
+        jos['Awis']['Results']['Result']['Alexa']['TrafficData']['Rank']
 
-    rta = https.request(request)
-    jos = JSON.parse(rta.body)
-    if jos['Awis']['Results']['Result']['Alexa']['TrafficData'].nil?
-      "Rank not found"
-    else
-      jos['Awis']['Results']['Result']['Alexa']['TrafficData']['Rank']
-
+      end
+    rescue => e
+      p "Error al consumir API de Alexa #{e.message}"
+      "Rank not found - timeout"
     end
   end
 
